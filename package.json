@@ -1,11 +1,14 @@
-{
+﻿{
   "name": "WebODM",
   "version": "2.4.1",
   "description": "User-friendly, extendable application and API for processing aerial imagery.",
   "main": "index.js",
   "scripts": {
     "test": "python manage.py test app.tests.test_generate_ui_mocks && jest",
-    "qtest": "jest"
+    "qtest": "jest",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
   "repository": {
     "type": "git",
